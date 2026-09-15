@@ -1,25 +1,25 @@
 class Rv < Formula
   desc "jj-native terminal branch reviewer"
   homepage "https://github.com/Firaenix/rv"
-  version "1.8.0"
+  version "1.9.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Firaenix/rv/releases/download/v1.8.0/rv-aarch64-apple-darwin.tar.xz"
-      sha256 "4a4a3673365ff47dabcbaeddfe7defb7d96aaf7ee748610ab411b364c97545e0"
+      url "https://github.com/Firaenix/rv/releases/download/v1.9.0/rv-aarch64-apple-darwin.tar.xz"
+      sha256 "8f7b69037c6fd1818c02c88045d7dd58909527b4a7ae1dece7d2ebde44474107"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Firaenix/rv/releases/download/v1.8.0/rv-x86_64-apple-darwin.tar.xz"
-      sha256 "e4058b7c1c5bf574e76f8a0f83f7fd547435023b3bcac1a0c466202b31085493"
+      url "https://github.com/Firaenix/rv/releases/download/v1.9.0/rv-x86_64-apple-darwin.tar.xz"
+      sha256 "ddcc3ecd873a16d07804a68eca326874c9c638a8c36cc2e788efcb16f969cdc2"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Firaenix/rv/releases/download/v1.8.0/rv-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "e5d71e96cfca061099deb35dd3f52e4b2ab3328b976eeef3507d2b5744612aac"
+      url "https://github.com/Firaenix/rv/releases/download/v1.9.0/rv-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "2c0fc93dd63a2bd609876c638ccbe0712a7a9951712f32e7730414e7fc6a5d08"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Firaenix/rv/releases/download/v1.8.0/rv-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "0b2e9aa048591da86ff59de4e9c4d2a5643dc07f74b5fb2f2ba70f36f70799b4"
+      url "https://github.com/Firaenix/rv/releases/download/v1.9.0/rv-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "f486f6e52f2ece9af48cff098f325a5fb069150515cf86ca9c023a163bfc0ec3"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
